@@ -2,7 +2,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/coffee-home.png);
+    background: url(./img/coffee-home.png);
     background-size: cover;
     background-position: center calc(-85px);
 }
