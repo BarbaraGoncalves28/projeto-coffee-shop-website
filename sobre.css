@@ -1,0 +1,45 @@
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex: 1 1 55rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 8rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.line{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 100px;
+    height: 3px;
+    background: var(--primary-color);
+}

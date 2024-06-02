@@ -1,0 +1,28 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/coffee-home.png);
+    background-size: cover;
+    background-position: center calc(-85px);
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+/*BREAKPOINTS*/
+
+@media (max-width: 1000px){
+
+    .home{
+        background-position: center calc(-1px);
+    }
+}
+
